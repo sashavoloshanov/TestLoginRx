@@ -1,3 +1,5 @@
+// TODO: Remove header
+
 //
 //  LooginModel.swift
 //  TestLogin
@@ -8,7 +10,12 @@
 
 import Foundation
 import RxSwift
+// TODO: No need of 'RxCocoa' here. Read about it
 import RxCocoa
+
+// TODO: It should be named as "LoginViewModel"
+
+// TODO: Create protocol for ViewModel with suffix '...Type'. for this example it should be 'LoginViewModelType'
 
 struct LoginModel {
     var login = Variable<String>("")
